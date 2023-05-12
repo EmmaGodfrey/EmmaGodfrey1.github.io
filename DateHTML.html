@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Couple Date Idea Picker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1><span class="emoji">💑</span> Date Idea Picker</h1>
+
+    <button id="pick-random-date">Pick Random Date Idea</button>
+
+    <div id="date-form-container" style="display: none;">
+      <h2>Random Date Idea</h2>
+      <form id="date-form">
+        <label for="date-idea">Date Idea:</label>
+        <input type="text" id="date-idea" disabled>
+      </form>
+    </div>
+
+    <div id="emojis-container" style="display: none;">
+      <span class="emoji" id="outdoors-emoji">🌳</span>
+      <span class="emoji" id="indoors-emoji">🏠</span>
+      <span class="emoji" id="outgoing-emoji">🎉</span>
+      <span class="emoji" id="sexual-emoji">🔥</span>
+      <span class="emoji" id="gaming-emoji">🎮</span>
+      <span class="emoji" id="reading-emoji">📚</span>
+    </div>
+  </div>
+</body>
+</html>
+
